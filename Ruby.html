@@ -15,11 +15,13 @@
 <body>
 
 <pre class="brush: ruby">
-
-  def something
-    blah = 0
-  end
+  #to get a random record from an Active Record
+  &lt;% major = Story.offset(rand(Story.count)).first.major %&gt;
 </pre>
+
+<p>
+ <a href="http://matt.weppler.me/2013/07/19/lets-build-a-sinatra-app.html">http://matt.weppler.me/2013/07/19/lets-build-a-sinatra-app.html</a>
+</p>
 
 </body>
 </html>
